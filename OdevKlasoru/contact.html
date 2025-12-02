@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>İletişim - Yazılımcı Portfolyosu</title>
+</head>
+<body>
+
+    <header>
+        <h1>Bana Ulaşın</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="about.html">Hakkımda</a></li>
+                <li><a href="services.html">Projeler</a></li>
+                <li><a href="contact.html">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <p>Projeleriniz için benimle iletişime geçebilirsiniz.</p>
+
+        <form action="#" method="POST">
+            <fieldset>
+                <legend>İletişim Formu</legend>
+
+                <p>
+                    <label for="adsoyad">Adınız Soyadınız:</label>
+                    <input type="text" id="adsoyad" name="adsoyad" placeholder="Adınız..." required>
+                </p>
+
+                <p>
+                    <label for="email">E-posta Adresiniz:</label>
+                    <input type="email" id="email" name="email" placeholder="ornek@email.com" required>
+                </p>
+
+                <p>
+                    <label for="tarih">Randevu Tarihi:</label>
+                    <input type="date" id="tarih" name="tarih">
+                </p>
+
+                <p>
+                    <label for="konu">Konu Seçiniz:</label>
+                    <select id="konu" name="konu">
+                        <option value="web">Web Sitesi İsteği</option>
+                        <option value="python">Python Projesi</option>
+                        <option value="diger">Diğer / Tanışma</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="mesaj">Mesajınız:</label><br>
+                    <textarea id="mesaj" name="mesaj" rows="5" cols="40" placeholder="Buraya yazınız..."></textarea>
+                </p>
+
+                <button type="submit">Formu Gönder</button>
+
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Abdulkadir Yılmaz. Tüm hakları saklıdır.</p>
+    </footer>
+
+</body>
+</html>
